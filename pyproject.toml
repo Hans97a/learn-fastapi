@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "learn-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["hans97a <byby8992@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.0"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+sqlalchemy = "^2.0.22"
+alembic = "^1.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
